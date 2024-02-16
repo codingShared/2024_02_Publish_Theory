@@ -1,0 +1,53 @@
+
+.parent {
+    display : flex;
+    width : 600px;
+    
+}
+
+.parent > div {
+    flex : 1;
+}
+
+.palette {
+    display : flex;
+    width : 100vw;
+    height : 100vh;
+}
+
+.palette > div {
+    flex : 1;
+    height : 100px;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: yellow;
+}
+
+.three {
+    background-color: green;
+}
+
+.box1 {
+    background-color: #74b9ff;
+}
+
+.box2 {
+    background-color: #a29bfe;
+}
+
+.box3 {
+    background-color: #dfe6e9;
+}
+
+.box4 {
+    background-color: #6c5ce7;
+}
+
+.box5 {
+    background-color: #ffeaa7;
+}
