@@ -1,0 +1,13 @@
+.box {
+    width : 200px;
+    height : 200px;
+    background-color: skyblue;
+    transition: all 1s;
+
+}
+
+.box:hover {
+    transform: rotate(45deg) scale(1.5) translateX(300px);
+    /* background : linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,70,253,1) 100%); */
+    background-color: pink;
+}
